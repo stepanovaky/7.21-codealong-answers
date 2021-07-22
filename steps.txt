@@ -1,3 +1,18 @@
+FIRST MAKE EVERYONE SURE CAN
+A) GIT CLONE
+B) NPM INSTALL 
+C) NPM START
+
+
 1. npm install --save-dev npm i @wojtekmaj/enzyme-adapter-react-17 enzyme react-test-renderer
 
-2. setup setupTests.js in 
+2. setup setupTests.js in src/
+
+//can create a new folder for testing but normally put test file beside component
+//naming convention - Footer.test/spec.js - jest will find them both
+3. Make a Footer.test.js
+go to Footer.test.js - way to test: render it, head down the dom elements to the span, then check the text inside span and compare it 
+
+4. Go to Ticket.test.js 
+
+5. go to app.test.js
